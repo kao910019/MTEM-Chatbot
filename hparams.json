@@ -1,0 +1,51 @@
+{
+  "batch_size": 2,
+  
+  "batch_size_infer": 1,
+  "beam_width": 0,
+  
+  "non_id": 0,
+  "non_token": "_non_",
+  "eos_id": 1,
+  "eos_token": "_eos_",
+  "bos_id": 2,
+  "bos_token": "_bos_",
+  "unk_id": 3,
+  "unk_token": "_unk_",
+  
+  "init_op": "uniform",
+  "init_weight": 0.1,
+  "random_seed": 0.1,
+  
+  "rnn_cell_type":"GRU",
+  "keep_prob": 0.9,
+  "length_penalty_weight": 0.0,
+  "log_device_placement": true,
+  "max_gradient_norm": 5.0,
+  
+  "discriminator_training_first":true,
+  "dev_dataset":true,
+  "test_dataset":true,
+  "progressive_training":true,
+  "discriminator_high_accuarcy":0.9,
+  "discriminator_low_accuarcy":0.65,
+  "num_epochs": 30,
+  
+  "num_layers": 2,
+  "num_units": 512,
+  "embedding_size":512,
+  "num_emotion_units": 256,
+  "emotion_embedding_size":256,
+  
+  "pass_hidden_state": true,
+  "source_reverse": true,
+  "time_major": true,
+  "src_max_len": 50,
+  "src_max_len_infer": null,
+  "tgt_max_len": 50,
+  "tgt_max_len_infer": 50,
+  
+  "reward_type":"Partial_Reward",
+  "sample_times": 3
+  
+}
