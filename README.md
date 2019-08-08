@@ -10,6 +10,8 @@ https://github.com/zpschang/seqGAN
 
 https://github.com/andi611/Conditional-SeqGAN-Tensorflow 
 
-Multi-turn & Multi-party Corpus:
+Multi-turn & Multi-party Corpus: 
+
 EmotionLines
+
 http://doraemon.iis.sinica.edu.tw/emotionlines/download.html
